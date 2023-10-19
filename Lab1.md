@@ -1,3 +1,4 @@
+![Image](CD Screenshot.png)
 
   I was at lecture1 when I ran `cd` with no arg which took me to the parent folder, then I ran `cd lecture1` which took me to lecture 1. Then I ran `cd hello.java` which gave me an error since the command works for directories and not files.
 
