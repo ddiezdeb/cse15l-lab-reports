@@ -1,15 +1,26 @@
+Below is my StringServer I created, that takes my queries and outputs them.
+
 ![Image](StringServerEmpty.png)
+An image of my empty server.
 
 ![Image](StringServer1.png)
+An image of my server after entering one query to `/add-message`.
 
 ![Image](StringServer2.png)
+An image of my server after entering another query to `/add-message`.
 
+![Image](StringServerJavaPic.png)
+And here is the code for my StringServer that I implemented in order to have the server output the query.
+
+
+
+Below is my directory holding the id_rsa and id_rsa.pub and me SSHing without having to input login information.
 ![Image](directoryID.png)
+Accessing the directory throught the terminal.
 
-![Image](SSH Auto.png)
+![Image](SSHAuto.png)
+SSH in with no password or username input.
 
-![Image](StringServer java pic.png)
 
 In Week 2 and 3 I was able to learn about servers, and got a better insight into how servers can be set up, implemented or accessed. 
-I learned about different parts of the URL like the domain, path, query and the anchor. I also got a better idea of what a server is,
-I was able to take code to run a server and modify it to implement functions that allow user input to ve output to the server.
+I learned about different parts of the URL like the domain, path, query and the anchor. This gave me a better idea of how a server functions since I was able to take code to run a server and modify it to implement functions that allows the query to take in user input that I can use to modify the output to the server.
