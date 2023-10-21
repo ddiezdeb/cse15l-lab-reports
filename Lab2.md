@@ -19,7 +19,7 @@ Below is my directory holding the id_rsa and id_rsa.pub and me SSHing without ha
 Accessing the directory throught the terminal.
 
 ![Image](SSHAuto.png)
-SSH in with no password or username input.
+Above is a picture of my terminal as I log into ieng6 without having to input a username or password.
 
 
 In Week 2 and 3 I was able to learn about servers, and got a better insight into how servers can be set up, implemented or accessed. 
