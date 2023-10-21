@@ -23,4 +23,4 @@ Above is a picture of my terminal as I log into ieng6 without having to input a 
 
 
 In Week 2 and 3 I was able to learn about servers, and got a better insight into how servers can be set up, implemented or accessed. 
-I learned about different parts of the URL like the domain, path, query and the anchor. This gave me a better idea of how a server functions since I was able to take code to run a server and modify it to implement functions that allows the query to take in user input that I can use to modify the output to the server.
+I learned about different parts of the URL like the domain, path, query and the anchor. This gave me a better idea of how a server functions since I was able to take code to run a server and modify it to implement functions. I did this by using the query to take in user input and modifying the input in order to change what the server was outputting.
