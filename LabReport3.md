@@ -16,3 +16,4 @@ Next is an example of a test that passed the faulty code.
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 1}, input1);
 	}' 
+![Image](Lab4buggyCodeTests.png)
