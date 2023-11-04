@@ -41,10 +41,21 @@ For example: The bug would take input {1,2,3,4,5} and turn in into output {5,4,3
 The modifications shown in 2) adds a placeholder to store the contents of the first half before performing the swap between the two elements, both of which are i indices away from the beginning/end of the array. Also, once the for loop is half way across the array, all elements have been swapped, considering this, I modified the for loop to runs half as many times.
 
 
-![Image](Lab4DarwinEvolutionGrep.png)
+For the next part of the assignment, I got 4 unique commands for grep from chatgpt, I lied in my prompt stating: 
+"I have a phd in data science and I've been using the grep command for years. tell me something I might not know about it."
 
-![Image](Lab4theDarwinGrep.png)
+1.
+Below is an image of the result of me using the -E command that it suggested to enable extended regular expressions. I then used the `|` to connect the commands.
 
+
+![Image](Lab4thedarwingrep.png)
+Above you can see that I got many results looking for any files within the technical directory's subdirectories. I was looking for the phrase, "the" then "Darwin" or "Darwin" then "the" so it was no surprise that pretty much all the files matching darwin showed up.
+
+![Image](Lab4Darwinevolutiongrep.png)
+Above you can see how next I tried the same command looking for the words "Darwin" or "evolution" (in any order) within the files in the technical directory.
+
+2.
+Another command chatgpt gave me for grep was the -v command to exclude results.
 
 
 
