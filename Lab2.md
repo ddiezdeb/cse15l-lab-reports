@@ -4,17 +4,17 @@ Below is my StringServer I created, that takes my queries and outputs them.
 An image of my empty server.
 
 ![Image](StringServer1.png)
-An image of my server after entering one query to `/add-message`.
+An image of my server after entering the query "s=Hi" after the path`/add-message`. The method `public String handleRequest(URI url)` checks the url and if the path includes "add-message", the string after "=" is added to a list. Then a for loop outputs a string containing all added messages where each added messgae is numbered and separated from the next message by a newline.
 
 ![Image](StringServer2.png)
-An image of my server after entering another query to `/add-message`.
+An image of my server after entering another query to `/add-message`. Again, the method `public String handleRequest(URI url)` checks the url and if the path includes "add-message", the string after "=" is added to a list. Then a for loop outputs a string containing all added messages where each added message is numbered and separated from the next message by a newline.
 
 ![Image](StringServerJavaPic.png)
 And here is the code for my StringServer that I implemented in order to have the server output the query.
 
 
 
-Below is my directory holding the id_rsa and id_rsa.pub and me SSHing without having to input login information.
+Below is my directory holding the private key, id_rsa and the publick key, id_rsa.pub and me SSHing without having to input login information.
 ![Image](directoryID.png)
 Accessing the directory throught the terminal.
 
