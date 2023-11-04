@@ -48,32 +48,32 @@ For the next part of the assignment, I got 4 unique commands for grep from chatg
 Below is an image of the result of me using the -E command that it suggested to enable extended regular expressions. I then used the `|` to connect the commands.
 
 
-![Image](Lab4thedarwingrep.png)
+![Image](thedarwingrep.png)
 Above you can see that I got many results looking for any files within the technical directory's subdirectories. I was looking for the phrase, "the" then "Darwin" or "Darwin" then "the" so it was no surprise that pretty much all the files matching darwin showed up.
 
-![Image](Lab4Darwinevolutiongrep.png)
+![Image](Darwinevolutiongrep.png)
 Above you can see how next I tried the same command looking for the words "Darwin" or "evolution" (in any order) within the files in the technical directory.
 
 2.
 Another command chatgpt gave me for grep was the -v command to exclude results.
 
-![Image](Lab4grepvcommand.png)
+![Image](grepvcommand.png)
 
-![Image](Lab4grepvcommand2.png)
+![Image](grepvcommand2.png)
 
 -v excludes specific strings and the -E command was looking for two other strings so there were plenty of results.
 
 3.
 The next grep command I tried was the grepw command which filters out substrings and only returns results where the input string is a word.
-![Image](Lab4grepw.png)
+![Image](grepw.png)
 
-![Image](Lab4grepwDiego.png)
+![Image](grepwDiego.png)
 
 4.
 Last I tried the grep -A - B - C, syntax where grep -A 2 adds the two preceding lines, and grep -B 2 adds the two preceding lines or grep -C 2 does both.
 
-![Image](Lab4grepAB.png)
+![Image](grepAB.png)
 
-![Image](Lab4grepC.png)
+![Image](grepC.png)
 
 As you can see both versions of this command gave me the same result as expected.
