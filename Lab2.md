@@ -4,10 +4,10 @@ Below is my StringServer I created, that takes my queries and outputs them.
 An image of my empty server.
 
 ![Image](StringServer1.png)
-An image of my server after entering the query "s=Hi" after the path`/add-message`. The method `public String handleRequest(URI url)` checks the url and if the path includes "add-message", the string after "=" is added to a list. Then a for loop outputs a string containing all added messages where each added messgae is numbered and separated from the next message by a newline.
+An image of my server after entering the query `/s=Hi`. The method `public String handleRequest(URI url)` checks the url and if the path includes "add-message", the string after "=" is added to a list. Then a for loop outputs a string containing all added messages where each added messgae is numbered and separated from the next message by a newline.
 
 ![Image](StringServer2.png)
-An image of my server after entering another query to `/add-message`. Again, the method `public String handleRequest(URI url)` checks the url and if the path includes "add-message", the string after "=" is added to a list. Then a for loop outputs a string containing all added messages where each added message is numbered and separated from the next message by a newline.
+An image of my server after entering another query. Again, the method `public String handleRequest(URI url)` checks the url and if the path includes `/add-message`, the string after "=" is added to a list. Then a for loop outputs a string containing all added messages where each added message is numbered and separated from the next message by a newline.
 
 ![Image](StringServerJavaPic.png)
 And here is the code for my StringServer that I implemented in order to have the server output the query.
