@@ -67,7 +67,7 @@ Another command chatgpt gave me for grep was the -v command to exclude results.
 The next grep command I tried was the grepw command which filters out substrings and only returns results where the input string is a word.
 ![Image](grepw.png)
 
-![Image](grepwDiego.png)
+![Image](grepwdiego.png)
 
 4.
 Last I tried the grep -A - B - C, syntax where grep -A 2 adds the two preceding lines, and grep -B 2 adds the two preceding lines or grep -C 2 does both.
