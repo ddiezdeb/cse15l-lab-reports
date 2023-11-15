@@ -1,26 +1,26 @@
 
 Below is an example of the Junit test I ran that included failure inducing input. I was expecting a reversed list, but instead I got back a palindrome that replaced the first half of the list with the second half.
 
-```
-@Test
+
+	'@Test
   	public void testReverseInPlaceThreeInputs() {
     int[] input1 = { 1,2,3 };
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 3,2,1 }, input1);
-	}
-``` 
+	}'
+
 
  
 Next is an example of a test that passed the faulty code. In general, you will not notice the bug when the input is a palindrome, because the output happens to be the same as the reversed input. 
 
-```
-      @Test
+
+      '@Test
   	public void testReverseInPlaceSingleInput() {
     int[] input1 = { 1};
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 1}, input1);
-	}
-```
+	}'
+
 
  Here is a picture of the output from visual studio code indicating that the first test failed and the second test passed.
 ![Image](Lab4buggyCodeTests.png)
