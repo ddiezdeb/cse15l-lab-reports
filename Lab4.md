@@ -38,8 +38,7 @@ Then vim opened it up in the terminal in a format that I could edit since vim is
 
 `git add .<enter>` This adds files I made to the branch
 
-`git commit -m “fixed ListExamples.java”<enter>` This commits the changes and -m is the message you will see in the 
-repository describing the changes made.
+`git commit -m “fixed ListExamples.java”<enter>` This commits the changes and -m indicates that the next field between quotes is the message you will see in the repository describing the changes made.
 
 `git push<enter>` Finally I push it back to the repository so that all of the changes I made on the terminal are now saved to the repository on github.
 
