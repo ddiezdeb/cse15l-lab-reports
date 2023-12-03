@@ -42,6 +42,7 @@ Then vim opened it up in the terminal in a format that I could edit since vim is
 
 `git push<enter>` Finally I push it back to the repository so that all of the changes I made on the terminal are now saved to the repository on github.
 
-<img width="553" alt="Lab4pic6" src="https://github.com/ddiezdeb/cse15l-lab-reports/assets/147003235/56c2d944-4b4a-4751-aeea-19357d4f7059">
+<img width="559" alt="Screenshot 2023-12-03 at 3 12 38 PM" src="https://github.com/ddiezdeb/cse15l-lab-reports/assets/147003235/d1a09cc2-a10e-4c1e-8b27-ce57364ecf12">
+
 
 
