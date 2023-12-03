@@ -15,10 +15,13 @@ then add, commit and push my changes back to github.
 
 `vim List<tab>` The tab command autocompleted the name of the file as far as possible without guessing which of the List*.java files I wanted to open.
 
-<img width="563" alt="lab4pic2" src="https://github.com/ddiezdeb/cse15l-lab-reports/assets/147003235/e1b388ee-4e95-4f77-ae52-c36b9b1e91b4"> Here is a photo of what the terminal looked like after typing `vim List<tab>`
+<img width="563" alt="lab4pic2" src="https://github.com/ddiezdeb/cse15l-lab-reports/assets/147003235/e1b388ee-4e95-4f77-ae52-c36b9b1e91b4"> 
+
+Here is a photo of what the terminal looked like after typing `vim List<tab>`
 
 
 <img width="567" alt="Screenshot 2023-12-03 at 3 04 51 PM" src="https://github.com/ddiezdeb/cse15l-lab-reports/assets/147003235/d50c9abc-c119-47b6-8ec9-6e38475b0981">
+
 I completed the line by typing .java in order to take me to the appropriate file.
 
 
